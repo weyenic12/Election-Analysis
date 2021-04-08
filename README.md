@@ -13,7 +13,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 - Data Source: [Election Results CSV File](/Resources/election_results.csv)
 - Software: Python 3.7.1, Visual Code Studio
 - [Election Results](/analysis/election_results.txt)
-## Summary
+## Results
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
 - The counties that were polled were:
@@ -31,4 +31,4 @@ The analysis of the election show that:
     - She received 73.8% of the total vote.
 
 ## Election-Audit Summary
-- We used the election_results.csv file to analyze the voting data and uncover the data to determine the vote count and the election winner. We found that Diana DeGette won the election and received 73.8% of the total vote. 
+- This script can be modified to work for any election. You can modify the counties to include more counties in a certain area or different counties in all if the election was in a different state. You can just add the county names to the list that currently contain Denver, Jefferson and Arapahoe. You can also modify the candidate information. You can remove the current candidates and place the ones you want for a new election. This script can very easily be used for another election, given that you have election data.
